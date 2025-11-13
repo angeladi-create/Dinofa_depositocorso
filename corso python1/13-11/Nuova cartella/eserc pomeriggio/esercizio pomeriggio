@@ -1,0 +1,30 @@
+def main():
+    while True:
+        scelta = input("Vuoi inserire un numero o una stringa? (n/s): ").strip().lower()
+
+        if scelta == 'n':
+            try:
+                numero = int(input("Inserisci un numero intero: "))
+                if numero % 2 == 0:
+                    print(f"Il numero {numero} è pari.")
+                else:
+                    print(f"Il numero {numero} è dispari.")
+            except ValueError:
+                print("Errore: devi inserire un numero intero valido.")
+        
+        elif scelta == 's':
+            stringa = input("Inserisci una stringa: ")
+            print(f"Hai inserito la stringa: {stringa}")
+        
+        else:
+            print("Scelta non valida. Scrivi 'n' per numero o 's' per stringa.")
+            continue
+
+        # Chiede se ripetere
+        ripeti = input("Vuoi ripetere? (s/n): ").strip().lower()
+        if ripeti != 's':
+            print("Programma terminato.")
+            break
+
+if __name__ == "__main__":
+    main()

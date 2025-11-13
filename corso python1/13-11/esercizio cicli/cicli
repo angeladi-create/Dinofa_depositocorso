@@ -1,0 +1,15 @@
+#cicli booleani
+while controllor:
+    print(controllor)
+    scelta = input("vuoi continuare?)")
+    if
+    
+    
+    
+    
+    
+    
+    #for
+    numeri = (1,2,3,4,5)
+    for numero in numeri
+     print(numero)

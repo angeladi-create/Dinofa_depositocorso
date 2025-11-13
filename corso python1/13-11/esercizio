@@ -1,0 +1,10 @@
+# Chiede all'utente la sua età
+eta = int(input("Quanti anni hai? "))
+
+# Controlla se l'età è inferiore a 18
+if eta < 18:
+    print("Mi dispiace, non puoi vedere questo film.")
+else:
+    print("Puoi vedere questo film.")
+    
+   

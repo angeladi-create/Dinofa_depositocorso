@@ -1,0 +1,43 @@
+# Chiede all'utente di inserire un numero utilizzo di if
+numero = int(input("Inserisci un numero: "))
+
+# Controlla se il numero è pari o dispari
+if numero % 2 == 0:
+    print("pari")
+else:
+    print("dispari")
+    
+    #utilizzo di while e range
+     # Chiede all'utente un numero intero positivo
+    n = int(input("Inserisci un numero intero positivo: "))
+
+    if n < 0:
+        print("Per favore inserisci un numero positivo!")
+        continue  # torna all'inizio del ciclo
+
+    # Stampa i numeri da n a 0
+    for i in range(n, -1, -1):  # -1 indica decremento
+        print(i)
+
+    print("\n--- Ripeti ---\n")
+    
+    #punto3 utilizzo di for
+    # Chiede all'utente di inserire i numeri separati da spazio
+numeri=[]   
+while True: 
+
+    input_utente =int( input("Inserisci un numero: "))
+    numeri.append(input_utente)
+    input_utente = input("vuoi continuare? ")
+    if input_utente=="no":
+        break
+
+
+
+
+# Stampa il quadrato di ciascun numero
+for numero in numeri:
+    print(f"Il quadrato di {numero} è {numero**2}")
+    
+    
+    

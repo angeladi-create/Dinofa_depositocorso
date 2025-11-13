@@ -1,0 +1,15 @@
+#continue
+numeri = [1,2,3,4,5]
+for numero in numeri:
+    if numero ==3:
+        continue
+    print(numero)
+    
+#break
+numeri = [1, 2, 3, 4, 5]
+
+for numero in numeri:
+    print(numero)
+    if numero == 3:  # quando il numero è 3
+        print("Trovato 3, esco dal ciclo.")
+        break  # interrompe il ciclo qui

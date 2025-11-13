@@ -1,0 +1,25 @@
+#tuple
+punto = (3,4)
+color_rgb = (255,128,0)
+
+#set
+set1 = set([1,2,3,4,5])
+set2 = {4,5,6,7}
+#operazioni
+print(set1.union(set2))
+print(set1.intersection(set2))
+print(set1.difference(set2))
+print(set1.symmetric_difference(set2))
+#add
+set1.add(6)
+#stampa set aggiornato
+print("Set aggiornato:", set1)
+
+#remove
+set1.remove(3)
+
+# Calcolo la lunghezza del set
+lunghezza = len(set1)
+# Stampo i risultati
+print("Set aggiornato:", set1)
+print("Numero di elementi nel set:", lunghezza)

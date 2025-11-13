@@ -1,0 +1,20 @@
+#tipo int
+x=10
+y=- 10
+print(x,y)
+#tipo float
+
+print(x,y)
+x=1
+y="mirko"
+#stringhe
+saluto = "ciao" 
+nome = "alice"
+messaggio = saluto + "" + nome
+print(messaggio)
+#esempio stringhe len
+s = "ciao, mondo"
+print(len(s)) 
+#upper
+
+"
